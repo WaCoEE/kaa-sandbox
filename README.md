@@ -1,5 +1,5 @@
 # Kaa Sandbox Repository
-This repo is for the for the WaCo EE Meetup Project Team.
+This repo is for the WaCo EE Meetup Project Team.
 
 ## Sample Files for the Kaa Sandbox Instance
 For more information see the [Your first Kaa application](https://kaaproject.github.io/kaa/docs/v0.10.0/Programming-guide/Your-first-Kaa-application/) page at the Kaa website
