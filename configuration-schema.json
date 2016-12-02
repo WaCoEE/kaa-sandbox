@@ -1,0 +1,12 @@
+{
+    "type": "record",
+    "name": "Configuration",
+    "namespace": "org.kaaproject.kaa.schema.sample",
+    "fields": [
+        {
+            "name": "samplePeriod",
+            "type": "int",
+            "by_default": 1
+        }
+    ]
+}
