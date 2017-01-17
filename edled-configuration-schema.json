@@ -1,0 +1,41 @@
+{
+    "type": "record",
+    "name": "Configuration",
+    "namespace": "org.kaaproject.kaa.schema.edled",
+    "fields": [
+        {
+            "name": "endpointid",
+            "type": "string",
+            "by_default": "eee000"
+        },
+        {
+            "name":"ledstate",
+            "type":{
+                "type":"enum",
+                "name":"ledst",
+                "symbols":[
+                    "on",
+                    "off"
+                ],
+                "by_default": "off"
+            }
+        },
+        {
+            "name":"frequency",
+            "type":{
+                "type":"enum",
+                "name":"freq",
+                "symbols":[
+                    "slow",
+                    "medium",
+                    "fast"
+                ],
+                "by_default": "slow"
+            }
+        },        {
+            "name": "displaytext",
+            "type": "string",
+            "by_default": "Hello World!"
+        }
+    ]
+}

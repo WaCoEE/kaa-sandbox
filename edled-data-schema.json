@@ -1,0 +1,33 @@
+{
+    "type": "record",
+    "name": "DataCollection",
+    "namespace": "org.kaaproject.kaa.schema.edled",
+    "fields": [
+      {
+          "name":"ledstate",
+          "type":{
+              "type":"enum",
+              "name":"ledst",
+              "symbols":[
+                  "on",
+                  "off"
+              ]
+          }
+      },
+      {
+          "name":"frequency",
+          "type":{
+              "type":"enum",
+              "name":"freq",
+              "symbols":[
+                  "slow",
+                  "medium",
+                  "fast"
+              ]
+          }
+      },        {
+          "name": "displaytext",
+          "type": "string"
+      }
+    ]
+}
